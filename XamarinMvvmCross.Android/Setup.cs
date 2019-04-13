@@ -7,9 +7,5 @@ namespace XamarinMvvmCross.Android
 {
     public class Setup : MvxAppCompatSetup<App>
     { 
-        //protected override IMvxAndroidViewPresenter CreateViewPresenter()
-        //{
-        //    return new MvxAppCompatViewPresenter(AndroidViewAssemblies);
-        //}
     }
 }

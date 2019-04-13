@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Threading.Tasks;
 using MvvmCross.ViewModels;
 
 namespace XamarinMvvmCross.Core.ViewModels
@@ -7,6 +8,12 @@ namespace XamarinMvvmCross.Core.ViewModels
     {
         public FirstViewModel()
         {
+        }
+
+        public override void Prepare()
+        {
+            base.Prepare();
+
             CustomString = "Dzień dobry!";
         }
 
@@ -22,4 +29,3 @@ namespace XamarinMvvmCross.Core.ViewModels
         }
     }
 }
-
